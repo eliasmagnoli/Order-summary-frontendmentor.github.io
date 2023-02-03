@@ -1,0 +1,106 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.summary-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.summary-container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 449px;
+    box-shadow: -1px 3px 36px -14px rgba(0,0,0,0.75);
+    margin-top: -15rem;
+    margin-bottom: 5rem;
+}
+
+.title-order{
+    color: hsl(223, 47%, 23%);
+    margin: 3rem auto;
+}
+
+.summary-description{
+    margin: -3rem auto;
+    text-align: center;
+    color: hsl(224, 23%, 55%)
+}
+
+.plan-container{
+    margin-right: 5rem;
+}
+
+.price-container{
+    margin: 4rem auto;
+    background-color: hsl(225, 90%, 92%);
+    padding-bottom: 1.8rem;
+    padding-top: 0.4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 20px;
+}
+
+.plan{
+    color: hsl(223, 47%, 23%);
+}
+
+.summary-change-button{
+    position: absolute;
+    margin: -2rem 11rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.summary-change-button:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.price-year{
+    position: absolute;
+    margin: -1rem 0.1rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.icon-music{
+    position: absolute;
+    margin: auto -4rem;
+}
+
+.proceed-button{
+    color: white;
+    font-size: 16px;
+    padding: 0.9rem 6rem;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Red Hat Display', sans-serif; 
+    background-color: hsl(245, 75%, 52%);
+}
+
+.proceed-button:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.cancel-button{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin: 2rem 1.5rem;
+    padding-left: 6rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Red Hat Display', sans-serif; 
+    background-color: hsl(225, 100%, 94%);;
+}
